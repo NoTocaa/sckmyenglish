@@ -1,7 +1,7 @@
 
   # Untitled
 
-  This is a code bundle for Untitled. The original project is available at https://www.figma.com/design/NsxpyghDvUnCNCzIgaRB4y/Untitled.
+ Sck My English ЙОУ
 
   ## Running the code
 
