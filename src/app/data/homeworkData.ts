@@ -2,7 +2,7 @@ import type { HomeworkEntry } from '../types/homework';
 
 export const dateEntries: HomeworkEntry[] = [
   {
-    "id": 1773932505254,
+    "id": 1774020292595,
     "date": "19.03",
     "group": "b1",
     "tasks": [
@@ -15,7 +15,7 @@ export const dateEntries: HomeworkEntry[] = [
     ]
   },
   {
-    "id": 1773932505255,
+    "id": 1774020292597,
     "date": "17.03",
     "group": "b1",
     "tasks": [
@@ -32,14 +32,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b1_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505256,
+    "id": 1774020292598,
     "date": "12.03",
     "group": "b1",
     "tasks": [
@@ -63,14 +63,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b1_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505260,
+    "id": 1774020292599,
     "date": "10.03",
     "group": "b1",
     "tasks": [
@@ -88,14 +88,20 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\">рейтинг</a><a href=\"files/points_comp_b2_2term_26.xlsx\"></a>",
+        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b1_2term_26.xlsx",
+        "type": "rating_file"
+      },
+      {
+        "question": "Рейтинг (2)",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
+        "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505261,
+    "id": 1774020292603,
     "date": "05.03",
     "group": "b1",
     "tasks": [
@@ -113,14 +119,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b1_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505263,
+    "id": 1774020292604,
     "date": "03.03",
     "group": "b1",
     "tasks": [
@@ -144,14 +150,20 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\">рейтинг</a><a href=\"files/points_comp_b2_2term_26.xlsx\"></a>",
+        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b1_2term_26.xlsx",
+        "type": "rating_file"
+      },
+      {
+        "question": "Рейтинг (2)",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
+        "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505264,
+    "id": 1774020292605,
     "date": "26.02",
     "group": "b1",
     "tasks": [
@@ -163,14 +175,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b1_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505265,
+    "id": 1774020292607,
     "date": "24.02",
     "group": "b1",
     "tasks": [
@@ -188,14 +200,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b1_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505266,
+    "id": 1774020292608,
     "date": "19.02",
     "group": "b1",
     "tasks": [
@@ -213,14 +225,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b1_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505267,
+    "id": 1774020292609,
     "date": "17.02",
     "group": "b1",
     "tasks": [
@@ -237,14 +249,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b1_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505268,
+    "id": 1774020292610,
     "date": "12.02",
     "group": "b1",
     "tasks": [
@@ -261,14 +273,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b1_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505270,
+    "id": 1774020292611,
     "date": "10.02",
     "group": "b1",
     "tasks": [
@@ -285,14 +297,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b1_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b1_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505401,
+    "id": 1774020292720,
     "date": "19.03",
     "group": "b2",
     "tasks": [
@@ -305,7 +317,7 @@ export const dateEntries: HomeworkEntry[] = [
     ]
   },
   {
-    "id": 1773932505402,
+    "id": 1774020292721,
     "date": "17.03",
     "group": "b2",
     "tasks": [
@@ -322,14 +334,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505403,
+    "id": 1774020292724,
     "date": "12.03",
     "group": "b2",
     "tasks": [
@@ -353,14 +365,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505404,
+    "id": 1774020292725,
     "date": "10.03",
     "group": "b2",
     "tasks": [
@@ -378,14 +390,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505405,
+    "id": 1774020292726,
     "date": "05.03",
     "group": "b2",
     "tasks": [
@@ -403,14 +415,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505406,
+    "id": 1774020292727,
     "date": "03.03",
     "group": "b2",
     "tasks": [
@@ -434,14 +446,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505407,
+    "id": 1774020292728,
     "date": "26.02",
     "group": "b2",
     "tasks": [
@@ -453,14 +465,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505408,
+    "id": 1774020292729,
     "date": "24.02",
     "group": "b2",
     "tasks": [
@@ -478,14 +490,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505409,
+    "id": 1774020292730,
     "date": "19.02",
     "group": "b2",
     "tasks": [
@@ -503,14 +515,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505410,
+    "id": 1774020292732,
     "date": "17.02",
     "group": "b2",
     "tasks": [
@@ -527,14 +539,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505411,
+    "id": 1774020292733,
     "date": "12.02",
     "group": "b2",
     "tasks": [
@@ -551,14 +563,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505412,
+    "id": 1774020292734,
     "date": "10.02",
     "group": "b2",
     "tasks": [
@@ -575,14 +587,14 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\">рейтинг</a>",
+        "description": "<a href=\"files/points_comp_b2_2term_26.xlsx\" target=\"_blank\">рейтинг</a>",
         "fileUrl": "http://nsbonline.ru/files/points_comp_b2_2term_26.xlsx",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505516,
+    "id": 1774020292835,
     "date": "19.03",
     "group": "mbs07",
     "tasks": [
@@ -595,7 +607,7 @@ export const dateEntries: HomeworkEntry[] = [
     ]
   },
   {
-    "id": 1773932505517,
+    "id": 1774020292837,
     "date": "12.03",
     "group": "mbs07",
     "tasks": [
@@ -612,13 +624,13 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "рейтинг",
+        "description": "Таблица баллов",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505518,
+    "id": 1774020292838,
     "date": "05.03",
     "group": "mbs07",
     "tasks": [
@@ -637,7 +649,7 @@ export const dateEntries: HomeworkEntry[] = [
     ]
   },
   {
-    "id": 1773932505519,
+    "id": 1774020292839,
     "date": "26.02",
     "group": "mbs07",
     "tasks": [
@@ -655,13 +667,13 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "рейтинг",
+        "description": "Таблица баллов",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505520,
+    "id": 1774020292840,
     "date": "19.02",
     "group": "mbs07",
     "tasks": [
@@ -680,7 +692,7 @@ export const dateEntries: HomeworkEntry[] = [
     ]
   },
   {
-    "id": 1773932505521,
+    "id": 1774020292841,
     "date": "12.02",
     "group": "mbs07",
     "tasks": [
@@ -704,13 +716,13 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "рейтинг",
+        "description": "Таблица баллов",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505631,
+    "id": 1774020292962,
     "date": "12.03",
     "group": "mpb06",
     "tasks": [
@@ -728,13 +740,13 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "рейтинг",
+        "description": "Таблица баллов",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505632,
+    "id": 1774020292963,
     "date": "05.03",
     "group": "mpb06",
     "tasks": [
@@ -753,19 +765,19 @@ export const dateEntries: HomeworkEntry[] = [
     ]
   },
   {
-    "id": 1773932505633,
+    "id": 1774020292964,
     "date": "26.02",
     "group": "mpb06",
     "tasks": [
       {
         "question": "Рейтинг",
-        "description": "рейтинг",
+        "description": "Таблица баллов",
         "type": "rating_file"
       }
     ]
   },
   {
-    "id": 1773932505634,
+    "id": 1774020292965,
     "date": "19.02",
     "group": "mpb06",
     "tasks": [
@@ -784,7 +796,7 @@ export const dateEntries: HomeworkEntry[] = [
     ]
   },
   {
-    "id": 1773932505635,
+    "id": 1774020292966,
     "date": "12.02",
     "group": "mpb06",
     "tasks": [
@@ -808,7 +820,7 @@ export const dateEntries: HomeworkEntry[] = [
       },
       {
         "question": "Рейтинг",
-        "description": "рейтинг",
+        "description": "Таблица баллов",
         "type": "rating_file"
       }
     ]

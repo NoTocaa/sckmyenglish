@@ -18,5 +18,21 @@ export default defineConfig({
   },
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
-  assetsInclude: ['**/*.svg', '**/*.csv'],
+  assetsInclude: ['**/*.svg', '**/*.csv', '**/*.xlsx'],
+
+  // Proxy for rating files to avoid CORS issues
+  server: {
+    proxy: {
+      '/api/rating': {
+        target: 'http://nsbonline.ru',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/rating/, ''),
+        configure: (proxy, _options) => {
+          proxy.on('proxyReq', (proxyReq, _req, _res) => {
+            proxyReq.setHeader('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36');
+          });
+        },
+      },
+    },
+  },
 })

@@ -75,7 +75,7 @@ async function fetchPage(url: string): Promise<string> {
 }
 
 // Extract ALL links from HTML and preserve original HTML structure
-function processCellHtml(html: string): { description: string; firstFileUrl?: string } {
+function processCellHtml(html: string): { description: string; fileUrl?: string; allFileUrls: string[] } {
   // Find all links
   const links: Array<{ url: string; text: string }> = [];
   const linkRegex = /<a[^>]+href="([^"]+)"[^>]*>([^<]*)<\/a>/gi;
@@ -86,6 +86,7 @@ function processCellHtml(html: string): { description: string; firstFileUrl?: st
     if (!url.startsWith('http')) {
       url = `${BASE_URL}/${url}`;
     }
+    // Добавляем даже если текст пустой
     links.push({ url, text: match[2] || 'Скачать' });
   }
   
@@ -97,7 +98,8 @@ function processCellHtml(html: string): { description: string; firstFileUrl?: st
   
   return {
     description: cleanHtml,
-    firstFileUrl: links[0]?.url,
+    fileUrl: links[0]?.url,
+    allFileUrls: links.map(l => l.url),
   };
 }
 
@@ -130,7 +132,7 @@ function parseRow(rowHtml: string): { date: string; tasks: Task[] } | null {
       tasks.push({
         question: 'На паре',
         description: processed.description,
-        fileUrl: processed.firstFileUrl,
+        fileUrl: processed.fileUrl,
         type: 'in_class',
       });
     }
@@ -143,7 +145,7 @@ function parseRow(rowHtml: string): { date: string; tasks: Task[] } | null {
       tasks.push({
         question: 'ДЗ',
         description: processed.description,
-        fileUrl: processed.firstFileUrl,
+        fileUrl: processed.fileUrl,
         type: 'homework',
       });
     }
@@ -156,7 +158,7 @@ function parseRow(rowHtml: string): { date: string; tasks: Task[] } | null {
       tasks.push({
         question: 'Долг',
         description: processed.description,
-        fileUrl: processed.firstFileUrl,
+        fileUrl: processed.fileUrl,
         type: 'debt',
       });
     }
@@ -167,12 +169,24 @@ function parseRow(rowHtml: string): { date: string; tasks: Task[] } | null {
     const cellText = cells[4].toLowerCase();
     if (cellText.includes('рейтинг') || cellText.includes('points')) {
       const processed = processCellHtml(cells[4]);
-      tasks.push({
-        question: 'Рейтинг',
-        description: processed.description || 'Таблица баллов',
-        fileUrl: processed.firstFileUrl,
-        type: 'rating_file',
-      });
+      // Добавляем все ссылки на рейтинг
+      if (processed.allFileUrls.length > 0) {
+        processed.allFileUrls.forEach((url, idx) => {
+          tasks.push({
+            question: idx === 0 ? 'Рейтинг' : `Рейтинг (${idx + 1})`,
+            description: `<a href="${url.replace(`${BASE_URL}/`, '')}" target="_blank">рейтинг</a>`,
+            fileUrl: url,
+            type: 'rating_file',
+          });
+        });
+      } else {
+        tasks.push({
+          question: 'Рейтинг',
+          description: 'Таблица баллов',
+          fileUrl: processed.fileUrl,
+          type: 'rating_file',
+        });
+      }
     }
   }
 
