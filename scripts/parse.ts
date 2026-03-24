@@ -1,6 +1,6 @@
 import { writeFileSync, readFileSync, existsSync, mkdirSync, readdirSync, unlinkSync } from 'fs';
 import { fileURLToPath } from 'url';
-import { dirname, join, basename } from 'path';
+import { dirname, join, basename } from 'path'; 
 import http from 'http';
 import iconv from 'iconv-lite';
 
@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // ПУТИ
-const DOWNLOADS_DIR = join(__dirname, '../public/downloads');
+const DOWNLOADS_DIR = join(process.cwd(), 'public', 'downloads');
 const DATA_OUTPUT = join(__dirname, '../src/app/data/homeworkData.ts');
 const BASE_URL = 'http://nsbonline.ru';
 
