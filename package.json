@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "parse": "ts-node scripts/parse.ts"
+    "parse": "tsx scripts/parse.ts"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
@@ -75,7 +75,7 @@
     "iconv-lite": "^0.7.2",
     "tailwindcss": "4.1.12",
     "ts-node": "^10.9.2",
-    "tsx": "^4.6.0",
+    "tsx": "^4.21.0",
     "typescript": "^6.0.2",
     "vite": "6.3.5"
   },
