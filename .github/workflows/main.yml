@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '*/15 * * * *' # Каждые 15 минут
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build-and-deploy:
